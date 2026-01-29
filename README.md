@@ -1,4 +1,5 @@
 YOLO11s Optimization for Fingerprint Minutiae Detection
+
 This repository contains the complete experimental notebooks used in the study “YOLO11s Optimization for Minutiae Detection.”
 The project investigates YOLO11 model variants (YOLO11n/s/m/l/x) and proposes architectural and training customizations to accurately detect fingerprint minutiae as small objects for forensic and biometric applications.
 Fingerprint minutiae (bifurcations, ridge endings, and centers) are extremely small and sensitive to downsampling. This work reformulates minutiae extraction as a one-stage object detection problem using YOLO11 and evaluates how high-resolution detection heads, feature refinement, and training strategies affect localization performance.
